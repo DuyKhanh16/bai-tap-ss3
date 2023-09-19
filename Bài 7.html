@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài số 7</title>
+</head>
+<body>
+
+<fieldset>
+    <legend>Thông tin sản phẩm</legend>
+    <form action="#" method="get">
+        <label>Tên sản Phẩm</label>
+        <input type="text" name="tên">
+<label>Số Lượng</label>
+<input type="number" name="number" id="number" min="0" max="10" step="1">
+    </form>
+</fieldset>
+<fieldset>
+    <legend>Thông tin giao hàng</legend>
+    <form action="#" method="get">
+        <label> Họ tên</label>
+        <input type="text"name="name">
+        <label>Email</label>
+        <input type="email" name="mail" id="mail">
+        <label>Số điện thoại</label>
+        <input type="text"name="phone">
+     <label>Địa Chỉ</label>
+     <textarea name="địa chỉ" id="địa chỉ" cols="30" rows="10"></textarea>
+    </form>
+</fieldset>
+<fieldset>
+    <legend>Thông tin thanh toán</legend>
+    <form action="#"method="get">
+        <select name="tt" id="tt">
+            <option value="1">COD</option>
+            <option value="2">Thanh Toán Khi Nhận</option>
+            <option value="3">Thanh Toán Trước Khi Nhận</option>
+        </select>
+        <br>
+        <input type="submit" value="Đặt hàng">
+    </form>
+</fieldset>
+
+</body>
+</html>
